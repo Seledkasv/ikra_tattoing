@@ -1,0 +1,128 @@
+@media(max-width: 1200px){
+    .footer__content{
+        max-width: fit-content;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__map{
+        padding-bottom: 50px;
+    }
+    .footer__grid{
+        max-width: 440px;
+        padding: 0;
+    }
+}
+
+@media(max-width: 992px){
+    .nav__container{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+    .nav-mobile__list li{
+        list-style: none; 
+    }
+    .nav-mobile__list a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+    .nav-mobile__list a:hover{
+        background: #E9E9E9;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 767px){
+    .section-0__block{
+        max-width: 767px;
+        padding: 50px 30px;
+    }
+
+    .main__container{
+        max-width: 767px;
+        flex-direction: column;
+    }
+    .main__container img{
+        max-width: 100%;
+        height: auto;
+        padding: 50px 0;
+    }
+    .main__container__text{
+        padding: 0 0 50px;
+    }
+    .section__title__content{
+        font-size: 1.5em;
+    }
+
+    img.main__form__icon{
+        max-width: 60px;
+        padding: 0;
+        margin: 20px 20px 20px 0;
+    }
+    img.main__form__icon:hover{
+        max-width: 80px;
+    }
+}
+
+@media(max-width: 575px){
+    .section-0__block{
+        max-width: 575px;
+        padding: 50px 0;
+    }
+    button{
+        margin: 20px 30px;
+    }
+
+    .faq__block{
+        padding: 20px;
+    }
+    .summary_title{
+        padding: 10px;
+    }
+    .summary_open{
+        padding: 20px;
+    }
+    .summary_open li{
+        margin-left: 10px;
+    }
+
+    .footer__grid{
+        max-width: 220px;
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        grid-template-rows: repeat(9, 40px);
+    }
+    .cell-8{
+        grid-column: 1 / span 3;
+        grid-row: 6 / 7;
+    }
+    .cell-9{
+        grid-column: 1 / span 3;
+        grid-row: 7 / 8;
+    }
+    .cell-10{
+        grid-column: 1 / span 3;
+        grid-row: 8 / 9;
+    }
+    .cell-11{
+        grid-column: 1 / span 3;
+        grid-row: 9 / 10;
+    }
+}
+
+
+@media(max-width: 320px){
+    .logo{
+        max-width: 60%;
+    }
+    .section-0__block button{
+        font-size: 0.8em;
+    }
+}
+    
