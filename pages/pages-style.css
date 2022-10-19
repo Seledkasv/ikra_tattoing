@@ -184,6 +184,10 @@ footer{
     text-decoration: none;
     color: white;
 }
+.footer__grid a:hover{
+    color: #999;
+}
+
 .cell-1{
     grid-column: 1 / span 3;
     grid-row: 1 / 2;
