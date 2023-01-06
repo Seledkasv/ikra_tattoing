@@ -45,7 +45,7 @@
     }
 
     .main__container{
-        max-width: 767px;
+        max-width: 100%;
         flex-direction: column;
     }
     .main__container img{
@@ -72,11 +72,15 @@
 
 @media(max-width: 575px){
     .section-0__block{
-        max-width: 575px;
+        max-width: 100%;
         padding: 50px 0;
     }
+    .logo {
+        max-width: 100%;
+    }
     button{
-        margin: 20px 30px;
+        margin: 20px;
+        padding: 20px;
     }
 
     .faq__block{
